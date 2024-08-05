@@ -18,6 +18,7 @@ interface PlantCoordinatesDocument extends Document {
   imageURL: string;
   Plant_Addresses: string;
   subscription: Subscription;
+  lastWeatherState: any;
 }
 
 const PlantsCoordinateSchema: Schema = new Schema({
@@ -36,6 +37,7 @@ const PlantsCoordinateSchema: Schema = new Schema({
       auth: { type: String, required: true },
     },
   },
+  lastWeatherState: { type: Object, required: false }, // Add this field
 });
 
 // Check if the model already exists to prevent overwriting

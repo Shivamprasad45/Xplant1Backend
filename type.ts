@@ -56,6 +56,7 @@ export interface Enter_Plant_coords {
   imageURL: string;
   Plant_Addresses: string;
   subscription: CustomSubscription;
+  lastWeatherState:any
 }
 export interface CustomSubscription {
   endpoint: string;

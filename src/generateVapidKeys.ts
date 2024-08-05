@@ -8,5 +8,5 @@ const vapidKeys = webPush.generateVAPIDKeys();
 console.log("Public Key:", vapidKeys.publicKey);
 console.log("Private Key:", vapidKeys.privateKey);
 
-// Public Key: BI09-2DW-K1NH3cjDG7gBm8oG6Oz8wOQkXYXQmI6eJl0gN22KqXlb8qOwu5rVs_CQFhnOa1Jr0e3qZk6PLem-mc
-// Private Key: TxfMku2eqiuM-Dj02BHt-KwEl598NFsHfFvSCPvaKi8
+// Public Key: BBPuBPUtiQ9XMcGyj_fAuupMTl_-pishcrf2Sk6HVLyQ8E3aJhvDNeiLznsSmmxT-BK52HT-hxLJqzdij23dxuk
+// Private Key: jcj5IvHlb6hJ0qbgAlYVJQMBVa74pZrAIxaZK8yjgcg

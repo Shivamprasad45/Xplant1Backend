@@ -1,6 +1,10 @@
 import { WeatherData } from "../type";
 
-async function Formula(weather: WeatherData) {
+async function Formula(weather: WeatherData): Promise<string[] | undefined> {
+  if (weather === undefined) {
+    return;
+  }
+
   if (weather && weather.weather && weather.weather[0].main) {
     const { main, wind, weather: weatherDetails, visibility } = weather;
     const weatherCondition = weatherDetails[0].main;
