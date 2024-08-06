@@ -36,7 +36,7 @@ const fetchData = async () => {
 // Call fetchData immediately, then every 10 seconds
 fetchData();
 // Schedule a task to run every 10 seconds
-cron.schedule("*/30 * * * *", fetchData);
+cron.schedule("* * * * *", fetchData);
 app.use("/", Plant_Coords_route);
 app.listen(port, () => {
   console.log(`[server]: Server is running at http://localhost:${port}`);
