@@ -14,6 +14,7 @@ dist/
 *.tsbuildinfo
 
 # TypeScript compiled files
+# Exclude .js files unless they are generated from the build process
 *.js
 *.d.ts
 
